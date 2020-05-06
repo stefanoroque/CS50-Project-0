@@ -1,0 +1,16 @@
+$background_colour: #595959;
+$subheading_colour: white;
+
+body {
+    background-color: $background_colour;
+  }
+
+div {
+    margin: auto;
+    width: 75%;
+    p {
+        font-size: xx-large;
+        text-align: center;
+        color: $subheading_colour;
+    }
+}

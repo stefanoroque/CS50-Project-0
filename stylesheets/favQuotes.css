@@ -1,0 +1,15 @@
+body {
+  background-color: #595959;
+}
+
+div {
+  margin: auto;
+  width: 75%;
+}
+div p {
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+}
+
+/*# sourceMappingURL=favQuotes.css.map */
