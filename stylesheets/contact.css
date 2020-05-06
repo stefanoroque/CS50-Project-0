@@ -2,11 +2,11 @@ body {
   background-color: #595959;
 }
 
-div {
+#socialmedia_list {
   margin: auto;
   width: 75%;
 }
-div p {
+#socialmedia_list p {
   font-size: xx-large;
   text-align: center;
   color: white;

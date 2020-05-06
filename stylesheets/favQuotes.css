@@ -2,14 +2,20 @@ body {
   background-color: #595959;
 }
 
-div {
+#quote_list {
   margin: auto;
   width: 75%;
 }
-div p {
+#quote_list p {
   font-size: xx-large;
   text-align: center;
   color: white;
+}
+
+.list-group {
+  font-size: large;
+  font-weight: bold;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 /*# sourceMappingURL=favQuotes.css.map */
