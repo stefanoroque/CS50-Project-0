@@ -1,0 +1,21 @@
+@media (min-width: 600px) {
+  h1::before {
+    content: "Hi, I'm Stef Roque.";
+  }
+}
+@media (max-width: 599px) {
+  h1::before {
+    content: "Hello.";
+  }
+}
+body {
+  background-color: #595959;
+}
+
+#intro {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
