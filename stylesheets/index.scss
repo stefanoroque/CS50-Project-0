@@ -2,13 +2,13 @@ $background_colour: #595959;
 $subheading_colour: white;
 
 @media (min-width: 600px) {
-    h1::before {
+    #intro::before {
       content: "Hi, I'm Stef Roque.";
       }
   }
 
 @media (max-width: 599px) {
-h1::before {
+#intro::before {
     content: "Hello.";
     }
 }
