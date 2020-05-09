@@ -1,0 +1,24 @@
+$background_colour: #595959;
+$subheading_colour: white;
+
+body {
+    background-color: $background_colour;
+  }
+
+#intro {
+    font-size: 50px;
+    text-align: center;
+    color: $subheading_colour;
+}
+
+.row {
+    align-items: center;
+    padding: 20px;
+}
+
+.row > div {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black
+}

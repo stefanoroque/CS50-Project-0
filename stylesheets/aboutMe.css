@@ -1,0 +1,23 @@
+body {
+  background-color: #595959;
+}
+
+#intro {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.row {
+  align-items: center;
+  padding: 20px;
+}
+
+.row > div {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+/*# sourceMappingURL=aboutMe.css.map */
