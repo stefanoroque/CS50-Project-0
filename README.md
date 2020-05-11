@@ -6,7 +6,7 @@ This is a personal website that I created for my Harvard CS50 course.
 
 ## What is contained in each file:
 - index.html: Uses bootstrap's Navbar component and contains image. 
-- ndex.sass: sass stylesheet that created index.css. Uses SCSS inheritance and variables. Contains mobile responsive @media query.
+- index.sass: sass stylesheet that created index.css. Uses SCSS inheritance and variables. Contains mobile responsive @media query.
 - index.css: stylesheet for index.html
 
 - aboutMe.html: Uses bootstrap's Navbar component and contains image. Uses columns from bootstrap's grid model for layout purposes.
