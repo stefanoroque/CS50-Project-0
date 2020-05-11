@@ -1,10 +1,10 @@
 @media (min-width: 600px) {
-  #intro::before {
+  #greeting::before {
     content: "Hi, I'm Stef Roque.";
   }
 }
 @media (max-width: 599px) {
-  #intro::before {
+  #greeting::before {
     content: "Hello.";
   }
 }
@@ -12,10 +12,39 @@ body {
   background-color: #595959;
 }
 
-#intro {
-  font-size: 50px;
+.intro {
+  font-size: xx-large;
   text-align: center;
   color: white;
+}
+
+#greeting {
+  font-size: 50px;
+}
+
+#summary {
+  margin: 50px;
+}
+
+.goals, .passion, .education {
+  font-family: "Amatic SC", Tahoma, Geneva, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.education {
+  color: #fa431e;
+}
+
+.passion {
+  color: #f0930a;
+}
+
+.goals {
+  color: #f2e016;
 }
 
 /*# sourceMappingURL=index.css.map */

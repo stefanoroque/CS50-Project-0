@@ -2,13 +2,13 @@ $background_colour: #595959;
 $subheading_colour: white;
 
 @media (min-width: 600px) {
-    #intro::before {
+    #greeting::before {
       content: "Hi, I'm Stef Roque.";
       }
   }
 
 @media (max-width: 599px) {
-#intro::before {
+  #greeting::before {
     content: "Hello.";
     }
 }
@@ -17,8 +17,40 @@ body {
     background-color: $background_colour;
   }
 
-#intro {
-    font-size: 50px;
+.intro {
+    font-size: xx-large;
     text-align: center;
     color: $subheading_colour;
+}
+
+#greeting {
+    font-size: 50px;
+}
+
+#summary {
+  margin: 50px;
+}
+
+%message {
+  font-family: 'Amatic SC', Tahoma, Geneva, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  color: $subheading_colour;
+  margin: 0px;
+  padding: 0px;
+}
+
+.education {
+  @extend %message;
+  color: #fa431e;
+}
+
+.passion {
+  @extend %message;
+  color: #f0930a;
+}
+
+.goals {
+  @extend %message;
+  color: #f2e016;
 }
