@@ -4,6 +4,8 @@ Web Programming with Python and JavaScript
 
 This is a personal website that I created for my Harvard CS50 course.
 
+[Demo Video of Project](https://youtu.be/nkgJdHcScjg)
+
 ## What is contained in each file:
 - index.html: Uses bootstrap's Navbar component and contains image. 
 - index.sass: sass stylesheet that created index.css. Uses SCSS inheritance and variables. Contains mobile responsive @media query.
